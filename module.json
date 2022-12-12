@@ -1,0 +1,100 @@
+{
+    "id": "brigandyne2e-csb-core",
+    "title": "Brigandyne 2 - CSB - Contenus",
+    "description": "Compendium pour Brigandyne 2",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "Nnayl"
+      }
+    ],
+    "compatibility" : {
+      "minimum": 10,
+      "verified": "10",
+      "maximum": "10"
+    },
+    "relationships": {
+      "systems": [
+        {
+          "id": "custom-system-builder",
+          "type": "system",
+          "manifest": "https://gitlab.com/custom-system-builder/custom-system-builder/-/raw/main/system.json"
+        }
+      ],
+      "requires" : [
+        {
+          "id": "compendium-folders",
+          "type": "module",
+          "compatibily" : {}
+        }
+      ]
+    },
+    "packs": [
+     {
+       "name": "brigandyne2e-pnj",
+       "label": "Brigandyne 2 - PNJ",
+       "path": "packs/pnj.db",
+       "type": "Actor",
+       "module": "brigandyne2e-csb-core",
+       "system": "custom-system-builder",
+       "tags" : "actors"
+     },
+     {
+      "name": "brigandyne2e-archetypes",
+      "label": "Brigandyne 2 - Archétypes",
+      "path": "packs/archetype.db",
+      "type": "Item",
+      "module": "brigandyne2e-csb-core",
+      "system": "custom-system-builder",
+      "tags" : "items"
+    },
+    {
+      "name": "brigandyne2e-atouts",
+      "label": "Brigandyne 2 - Atouts",
+      "path": "packs/atouts.db",
+      "type": "Item",
+      "module": "brigandyne2e-csb-core",
+      "system": "custom-system-builder",
+      "tags" : "items"
+    },
+    {
+      "name": "brigandyne2e-equipements",
+      "label": "Brigandyne 2 - Equipements",
+      "path": "packs/equipements.db",
+      "type": "Item",
+      "module": "brigandyne2e-csb-core",
+      "system": "custom-system-builder",
+      "tags" : "items"
+    },
+    {
+      "name": "brigandyne2e-grimoires",
+      "label": "Brigandyne 2 - Grimoires",
+      "path": "packs/grimoires.db",
+      "type": "Item",
+      "module": "brigandyne2e-csb-core",
+      "system": "custom-system-builder",
+      "tags" : "items"
+    },
+    {
+      "name": "brigandyne2e-peripeties",
+      "label": "Brigandyne 2 - Péripéties",
+      "path": "packs/peripeties.db",
+      "type": "Item",
+      "module": "brigandyne2e-csb-core",
+      "system": "custom-system-builder",
+      "tags" : "items"
+    },
+    {
+      "name": "brigandyne2e-peuples",
+      "label": "Brigandyne 2 - Peuples",
+      "path": "packs/peuples.db",
+      "type": "Item",
+      "module": "brigandyne2e-csb-core",
+      "system": "custom-system-builder",
+      "tags" : "items"
+    }
+   ],
+   "url": "https://github.com/Nnayl/brigandyne2e-csb-core",
+   "manifest": "https://raw.githubusercontent.com/Nnayl/brigandyne2e-csb-core/master/module.json",
+   "download": "https://github.com/Nnayl/brigandyne2e-csb-core/archive/refs/tags/1.0.0.zip"
+  }
