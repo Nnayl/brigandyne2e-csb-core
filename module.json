@@ -2,7 +2,7 @@
     "id": "brigandyne2e-csb-core",
     "title": "Brigandyne 2 - CSB - Contenus",
     "description": "Compendium pour Brigandyne 2",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
       {
         "name": "Nnayl"
@@ -42,7 +42,7 @@
      {
       "name": "brigandyne2e-archetypes",
       "label": "Brigandyne 2 - Archétypes",
-      "path": "packs/archetype.db",
+      "path": "packs/archetypes.db",
       "type": "Item",
       "module": "brigandyne2e-csb-core",
       "system": "custom-system-builder",
@@ -96,5 +96,5 @@
    ],
    "url": "https://github.com/Nnayl/brigandyne2e-csb-core",
    "manifest": "https://raw.githubusercontent.com/Nnayl/brigandyne2e-csb-core/master/module.json",
-   "download": "https://github.com/Nnayl/brigandyne2e-csb-core/archive/refs/tags/1.0.0.zip"
+   "download": "https://github.com/Nnayl/brigandyne2e-csb-core/archive/refs/tags/1.0.1.zip"
   }
