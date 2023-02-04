@@ -2,7 +2,7 @@
     "id": "brigandyne2e-csb-core",
     "title": "Brigandyne 2 - CSB - Contenus",
     "description": "Compendium pour Brigandyne 2",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "authors": [
       {
         "name": "Nnayl"
@@ -92,9 +92,18 @@
       "module": "brigandyne2e-csb-core",
       "system": "custom-system-builder",
       "tags" : "items"
+    },
+    {
+      "label": "Brigandyne 2 - Tables Aléatoires",
+      "type": "RollTable",
+      "name": "brigandyne2e-tables-aleatoires",
+      "path": "packs/tables-aleatoires.db",
+      "module": "brigandyne2e-csb-core",
+      "system": "custom-system-builder",
+      "tags": "RollTables"
     }
    ],
    "url": "https://github.com/Nnayl/brigandyne2e-csb-core",
    "manifest": "https://raw.githubusercontent.com/Nnayl/brigandyne2e-csb-core/master/module.json",
-   "download": "https://github.com/Nnayl/brigandyne2e-csb-core/archive/refs/tags/1.0.6.zip"
+   "download": "https://github.com/Nnayl/brigandyne2e-csb-core/archive/refs/tags/1.0.7.zip"
   }
