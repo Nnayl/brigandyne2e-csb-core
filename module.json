@@ -2,7 +2,7 @@
     "id": "brigandyne2e-csb-core",
     "title": "Brigandyne 2 - CSB - Contenus",
     "description": "Compendium pour Brigandyne 2",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "authors": [
       {
         "name": "Nnayl"
@@ -100,10 +100,19 @@
       "path": "packs/tables-aleatoires.db",
       "module": "brigandyne2e-csb-core",
       "system": "custom-system-builder",
-      "tags": "RollTables"
+      "tags": "rollTables"
+    },
+    {
+      "label": "Brigandyne 2 - Carrières",
+      "type": "Item",
+      "name": "brigandyne2e-carrieres",
+      "path": "packs/carrieres.db",
+      "module": "brigandyne2e-csb-core",
+      "system": "custom-system-builder",
+      "tags": "items"
     }
    ],
    "url": "https://github.com/Nnayl/brigandyne2e-csb-core",
    "manifest": "https://raw.githubusercontent.com/Nnayl/brigandyne2e-csb-core/master/module.json",
-   "download": "https://github.com/Nnayl/brigandyne2e-csb-core/archive/refs/tags/1.0.7.zip"
+   "download": "https://github.com/Nnayl/brigandyne2e-csb-core/archive/refs/tags/1.0.8.zip"
   }
