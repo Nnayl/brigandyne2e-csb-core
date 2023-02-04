@@ -2,7 +2,7 @@
     "id": "brigandyne2e-csb-core",
     "title": "Brigandyne 2 - CSB - Contenus",
     "description": "Compendium pour Brigandyne 2",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "authors": [
       {
         "name": "Nnayl"
@@ -114,5 +114,5 @@
    ],
    "url": "https://github.com/Nnayl/brigandyne2e-csb-core",
    "manifest": "https://raw.githubusercontent.com/Nnayl/brigandyne2e-csb-core/master/module.json",
-   "download": "https://github.com/Nnayl/brigandyne2e-csb-core/archive/refs/tags/1.0.8.zip"
+   "download": "https://github.com/Nnayl/brigandyne2e-csb-core/archive/refs/tags/1.0.9.zip"
   }
